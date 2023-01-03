@@ -262,4 +262,4 @@ if __name__ == '__main__':
     print()
     print("Angle around z-axis (pointing out of camera): %f degrees" % (z * 180 / math.pi))
     print("Angle around y-axis (pointing vertically): %f degrees" % (y * 180 / math.pi))
-    print("Angle around x-axis (pointing horizontally): %f degrees" % (x * 180 / math.pi))
+    print("Angle around x-axis (pointing horizontally): %f degrees" % (x * 180 / math.pi))``
