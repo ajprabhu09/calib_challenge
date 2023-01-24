@@ -112,7 +112,6 @@ Returns:
 '''
 def compute_vanishing_point(point1, point2):
     # compute line equations for two lines
-    print(point1, point2)
     x1, y1, x2, y2 = point1
     a1, b1, c1 = compute_line_equation([[x1, y1], [x2, y2]])
     x1, y1, x2, y2 = point2
@@ -262,4 +261,4 @@ if __name__ == '__main__':
     print()
     print("Angle around z-axis (pointing out of camera): %f degrees" % (z * 180 / math.pi))
     print("Angle around y-axis (pointing vertically): %f degrees" % (y * 180 / math.pi))
-    print("Angle around x-axis (pointing horizontally): %f degrees" % (x * 180 / math.pi))``
+    print("Angle around x-axis (pointing horizontally): %f degrees" % (x * 180 / math.pi))
